@@ -10,8 +10,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  name.collect do | names |
-  return names
+  name.each do | names |
+  return "Hello, my name is #{names}."
   end
 
 end
