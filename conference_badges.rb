@@ -9,10 +9,10 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(array)
+def batch_badge_creator(names)
   welcome_message = []
-  array.each { | name |
-    welcome_message << "Hello, my name is #{array}."
+  array.each { | names |
+    welcome_message << "Hello, my name is #{names}."
   return welcome_message
   }
 end
