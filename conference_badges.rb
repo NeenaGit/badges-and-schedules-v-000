@@ -13,5 +13,5 @@ def batch_badge_creator(name)
   name.collect do | names |
   return names
   end
-  
+
 end
