@@ -11,14 +11,13 @@ end
 
 def batch_badge_creator(array)
   array.collect { | name |
-  return "Hello, my name is #{array}." }
+  return name }
 end
 
 
 def assign_rooms(attendees)
   attendees.map { |e|
    return e
-  
    }
 
 end
