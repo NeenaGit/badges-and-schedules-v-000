@@ -16,7 +16,11 @@ end
 
 
 def assign_rooms(attendee)
+   all_badges =[]
    attendees.each_with_index do |name, index|
-   return "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+   all_badges << "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+   return all_badges
   end
 end
+
+
