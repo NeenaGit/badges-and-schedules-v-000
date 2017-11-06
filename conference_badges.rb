@@ -13,6 +13,8 @@ def batch_badge_creator(array)
   binding.pry
   badges = []
   array.collect { | name |
-  return badges << "Hello, my name is #{array}." }
+  badges << "Hello, my name is #{array}." 
+  return badges
+}
 
 end
