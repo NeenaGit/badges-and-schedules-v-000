@@ -10,10 +10,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  welcome_message = []
+  # welcome_message = []
   names.each { | name |
-    welcome_message << "#{badges}."
-  return welcome_message
+    return "#{badges}"
+  #   welcome_message << "#{badges}."
+  # return welcome_message
   }
 end
 
