@@ -12,7 +12,7 @@ end
 def batch_badge_creator(array)
   welcome_message = []
   array.collect { | name |
-  welcome_message << array
+    welcome_message << "Hello, my name is #{array}."
   return welcome_message
   }
 end
