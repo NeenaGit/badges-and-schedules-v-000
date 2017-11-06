@@ -10,7 +10,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  array.collect { | names |
-  return "Hello, my name is #{array}." }
+  array.collect { | name |
+  return "Hello, my name is #{name}." }
 
 end
