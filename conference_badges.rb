@@ -10,6 +10,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
+  binding.pry
   badges = []
   array.collect { | name |
   return badges << "Hello, my name is #{array}." }
