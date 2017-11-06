@@ -13,7 +13,7 @@ def batch_badge_creator(names)
   welcome_message = []
   names.each { | name |
     # "#{badges}"
-  welcome_message << "#{badges}."
+  welcome_message << "Hello, my name is #{name}."
   welcome_message
   }
 end
