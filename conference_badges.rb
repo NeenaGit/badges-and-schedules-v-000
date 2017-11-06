@@ -11,6 +11,6 @@ end
 
 def batch_badge_creator(array)
   array.collect { | name |
-  return "Hello, my name is #{name}." }
+  return "Hello, my name is #{array}." }
 
 end
