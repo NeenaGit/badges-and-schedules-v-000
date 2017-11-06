@@ -10,7 +10,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
+  badges = []
   array.collect { | name |
-  return "Hello, my name is #{array}." }
+  return badges.split(",") << "Hello, my name is #{array}." }
 
 end
