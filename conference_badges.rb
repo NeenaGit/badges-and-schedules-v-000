@@ -16,9 +16,9 @@ end
 
 
 def assign_rooms(attendees)
-  attendees.map { |e| 
+  attendees.map { |e|
    return e
   
    }
-  
-end  
+
+end
