@@ -10,7 +10,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  name.map { | names |
+  name.collect { | names |
   return "Hello, my name is #{name}." }
 
 end
