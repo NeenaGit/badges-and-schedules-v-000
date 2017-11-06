@@ -14,8 +14,8 @@ def batch_badge_creator(names)
   names.each { | name |
     # "#{badges}"
   welcome_message << "Hello, my name is #{name}."
-  welcome_message
   }
+  return welcome_message
 end
 
 
