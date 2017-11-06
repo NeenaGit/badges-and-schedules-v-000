@@ -11,7 +11,7 @@ end
 
 def batch_badge_creator(name)
   name.collect do | names |
-    "Hello, my name is #{name}"
+  return names
   end
   
 end
