@@ -10,9 +10,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  binding.pry
   name.each do | names |
-  return "Hello, my name is #{names}."
+  return "Hello, my name is #{name}."
   end
 
 end
